@@ -3,7 +3,7 @@ import cv2 # Importing the OpenCV Module for this Program.
 '''You can Download this Classifier here:
 https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml'''
 a = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') # Providing the Program with the Classifier.
-b = cv2.imread('Image.jpg') # Giving the OpenCV Path to the Image File.
+b = cv2.imread('Your Image Path') # Giving the OpenCV Path to the Image File.
 c = cv2.cvtColor(b, cv2.COLOR_BGR2GRAY) # Converting the Colored image to Gray because the Classifier can only detect in Grayscale Images.
 
 '''Here I have used 1.3 and 3. You can mess up with these values and then 
