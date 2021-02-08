@@ -14,7 +14,7 @@ d = a.detectMultiScale(c, 1.3, 3) # Detecting the Faces.
 
 '''Also note that this piece of code between line 19-20 has been used to draw a rectangle
 around the detected faces. You'll notice that I have written someting like - "(0, 0, 255), 3"
-in line 20. First is BGR Value and 2nd is the Width of Triangle. You may feel free to mess up
+in line 20. First is BGR Value and 2nd is the Width of Rectangle. You may feel free to mess up
 with all these values and choose the ones which you like.'''
 for (x, y, w, h) in d: # Making the rectangle around the detected faces.
     cv2.rectangle(b, (x, y), (x + w, y + h), (0, 0, 255), 3) # Making the rectangle around the detected faces.
